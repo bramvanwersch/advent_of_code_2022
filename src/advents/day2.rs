@@ -64,7 +64,7 @@ fn challenge2(){
         let moves: Vec<&str> = line.split(" ").collect();
         let move1 = *mapping.get(moves[0]).unwrap();
         let move2 = *mapping.get(moves[1]).unwrap();
-        let mut second = 0;
+        let mut second;
         if move2 == 3{
             second = move1
         }

@@ -17,7 +17,8 @@ fn main() {
         match nr_1 {
             1=>advents::day1(nr_2),
             2=>advents::day2(nr_2),
-            _=>()
+            3=>advents::day3(nr_2),
+            _=>println!("No challenge number {}", nr_1)
         }
     }
 }
